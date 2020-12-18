@@ -1,0 +1,147 @@
+/* For Desktop */
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+
+
+.navbar img{
+   text-align: left;
+   position: absolute;
+   top: 0px;
+   left: 40px;
+}
+.navbar h1{
+    text-align: left;
+    position: absolute;
+    font-size: 1.5rem;
+    
+    
+}
+.nav-menu {
+    flex-direction:row;
+    justify-content: flex-end;
+   
+    
+}
+.nav-menu a{
+    background-color: transparent;
+    margin-top: 0px  ;
+    
+    
+}
+.navbar{
+    height: 75px;
+    position: relative;
+}
+
+
+/* Profile Section Start */
+
+.top-icon{
+    right: 100px;
+    transition: width 2s transform 2s;
+    width: 120px;
+}
+.top-icon:hover{
+    width: 150px;
+}
+
+
+.bottom-icon{
+    left: 50px;
+    bottom: 20px;
+    transition: width 2s transform 2s;
+    width: 120px;
+}
+.bottom-icon:hover{
+    width: 150px;
+}
+
+.profile p{
+    width: 70%;
+    margin: 0px auto;
+}
+
+.profile::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* profile section End */
+
+/* About me section start here */
+
+.aboutme-img{
+    margin-top: 100px;
+}
+.aboutme-img img{
+    height: 220px;
+    width: 200px;
+}
+.aboutme-desc p{
+    text-align: left;
+}
+.aboutme-desc .desc{
+    
+    text-align:left;
+    
+}
+
+/* About me section Ends here */
+
+
+
+/* Services section Start from here */
+
+.div1,.div2,.div3{
+   
+    width: 350px;
+    height: 400px;
+    margin-left:75px;
+    margin-top: 30px;
+      
+}
+
+
+/* Services section Ends from here */
+
+/* Achivement and contract start here */
+ 
+.achivement{
+    padding-right: 20px;
+}
+
+.social-icon{
+    position: relative;
+}
+
+.links{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+/* Achivement and contract Ends here */
+
+/* Footer Section Start from here */
+
+.footer-menu a{
+    display: inline;
+    margin: 10px;
+    font-size: .85rem;
+}
+
+
+
+
+/* Footer Section Ends from here */
